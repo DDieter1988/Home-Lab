@@ -38,8 +38,8 @@ Welcome to my home lab! I'm building this environment to sharpen my skills in ne
 | Linksys |
 | LGS108P V2 | (Unmanaged PoE Switch)
 +------+------+---------------------+
-  |                          |
-[My PC]                [Xbox Console]
+| |
+[My PC] [Xbox Console]
 
 
 ---
