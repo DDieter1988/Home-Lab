@@ -16,7 +16,7 @@ Welcome to my home lab! I'm building this environment to sharpen my skills in ne
 ## Current Network Overview
 
 **Network Topology (May 2025):**
-
+```
            [Internet]
                |
                |
@@ -41,7 +41,7 @@ Welcome to my home lab! I'm building this environment to sharpen my skills in ne
 | |
 [My PC] [Xbox Console]
 
-
+```
 ---
 
 ## Hardware Inventory
