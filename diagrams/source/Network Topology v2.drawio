@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="9hN36100IZdMxPkctEH0">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#000000)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-2" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Spectrum Modem" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-3" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Spectrum&lt;div&gt;&lt;div&gt;Wi-Fi Router&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="90" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-4" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Ryzen&lt;div&gt;Workstation&lt;/div&gt;&lt;div&gt;Ryzen 3 2200G&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="120" x="520" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-5" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;html=1;convertToSvg=1;fontColor=default;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Xbox One X" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-7" edge="1" parent="1" source="ToDXr3h5RyI9VVv4QY8m-1" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="FarVHGxD0t6C1qM0QnRn-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="450" as="sourcePoint" />
+            <mxPoint x="810" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-8" edge="1" parent="1" source="ToDXr3h5RyI9VVv4QY8m-1" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="FarVHGxD0t6C1qM0QnRn-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="427.2972972972973" as="sourcePoint" />
+            <mxPoint x="830" y="621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-10" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-2" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="239" y="280" as="sourcePoint" />
+            <mxPoint x="185" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-11" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-14" style="endArrow=none;dashed=1;html=1;rounded=0;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="460" as="sourcePoint" />
+            <mxPoint x="515" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-12" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-15" style="endArrow=none;dashed=1;html=1;rounded=0;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="196" y="460" as="sourcePoint" />
+            <mxPoint x="235" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-13" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-16" style="endArrow=none;dashed=1;html=1;rounded=0;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="285" y="567" as="sourcePoint" />
+            <mxPoint x="285" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-14" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Mobile Devices" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-15" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Tablets" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-16" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Streaming Devices" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="seXRkMr5l3rW11C3EcV0-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="Network Topology v2&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Introduction to Servers&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;March 2026&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Added &quot;edroom&quot; server to host Jellyfin, Immich, Game Servers, and Network Storage.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="180" x="315" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ToDXr3h5RyI9VVv4QY8m-1" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="&lt;div&gt;D-Link&lt;/div&gt;DGS-1100-08V2" vertex="1">
+          <mxGeometry height="90" width="120" x="300" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ToDXr3h5RyI9VVv4QY8m-2" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-3" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="ToDXr3h5RyI9VVv4QY8m-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="254.2972972972973" as="sourcePoint" />
+            <mxPoint x="395" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToDXr3h5RyI9VVv4QY8m-3" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;svgWhiteSpace=wrap;labelBorderColor=default;labelBackgroundColor=default;" value="edroom Server&lt;div&gt;A8-5600K&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Jellyfin&lt;/div&gt;&lt;div&gt;Immich&lt;/div&gt;&lt;div&gt;Game Servers&lt;/div&gt;&lt;div&gt;Network Storage&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="120" x="520" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="xZbmALRHJv8EvBfmm8y5-1" edge="1" parent="1" source="ToDXr3h5RyI9VVv4QY8m-1" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBorderColor=default;labelBackgroundColor=default;" target="ToDXr3h5RyI9VVv4QY8m-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500" y="520" as="sourcePoint" />
+            <mxPoint x="570" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l7K3QNfiy7Q0bDEdbUbC-1" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;curved=0;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="40" as="sourcePoint" />
+            <mxPoint x="680" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l7K3QNfiy7Q0bDEdbUbC-2" edge="1" parent="1" style="endArrow=none;dashed=1;rounded=0;convertToSvg=1;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="100" as="sourcePoint" />
+            <mxPoint x="680" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l7K3QNfiy7Q0bDEdbUbC-3" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;convertToSvg=1;svgWhiteSpace=wrap;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="Wired Connection" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l7K3QNfiy7Q0bDEdbUbC-4" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;convertToSvg=1;svgWhiteSpace=wrap;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="Wireless Connection" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="9hN36100IZdMxPkctEH0">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #000000)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-2" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" value="Spectrum Modem" vertex="1">
+          <mxGeometry height="60" width="120" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-3" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" value="Spectrum&lt;div&gt;Wi-Fi Router&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-4" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" value="Ryzen&lt;div&gt;Workstation&lt;/div&gt;&lt;div&gt;Ryzen 3 2200G&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-5" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" value="Xbox One X" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-7" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-3" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" target="FarVHGxD0t6C1qM0QnRn-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="115" y="470" as="sourcePoint" />
+            <mxPoint x="505" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-8" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-3" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" target="FarVHGxD0t6C1qM0QnRn-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="579" y="530" as="sourcePoint" />
+            <mxPoint x="525" y="611" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-10" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-2" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="229" y="400" as="sourcePoint" />
+            <mxPoint x="175" y="481" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-11" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-14" style="endArrow=none;dashed=1;html=1;rounded=0;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="580" as="sourcePoint" />
+            <mxPoint x="505" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-12" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-15" style="endArrow=none;dashed=1;html=1;rounded=0;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="186" y="580" as="sourcePoint" />
+            <mxPoint x="225" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-13" edge="1" parent="1" source="FarVHGxD0t6C1qM0QnRn-16" style="endArrow=none;dashed=1;html=1;rounded=0;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" target="FarVHGxD0t6C1qM0QnRn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="275" y="687" as="sourcePoint" />
+            <mxPoint x="275" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-14" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" value="Mobile Devices" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-15" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" value="Tablets" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FarVHGxD0t6C1qM0QnRn-16" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;labelPosition=center;align=center;convertToSvg=1;labelBackgroundColor=default;labelBorderColor=default;" value="Streaming Devices" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="seXRkMr5l3rW11C3EcV0-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;convertToSvg=1;svgWhiteSpace=wrap;labelBackgroundColor=default;labelBorderColor=default;" value="Network Topology v0&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pre-Homelab Era&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;~ June 2022&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Before the homelab, the network consisted of a basic Spectrum router setup with a single workstation and Xbox connected via Ethernet.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="180" x="315" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rgnob8spTsLBIvZGKsJn-1" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;curved=0;rounded=0;endSize=8;startSize=8;convertToSvg=1;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="40" as="sourcePoint" />
+            <mxPoint x="680" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgnob8spTsLBIvZGKsJn-2" edge="1" parent="1" style="endArrow=none;dashed=1;rounded=0;convertToSvg=1;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="100" as="sourcePoint" />
+            <mxPoint x="680" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgnob8spTsLBIvZGKsJn-3" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;convertToSvg=1;svgWhiteSpace=wrap;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="Wired Connection" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgnob8spTsLBIvZGKsJn-4" parent="1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;convertToSvg=1;svgWhiteSpace=wrap;labelBackgroundColor=default;html=1;labelBorderColor=default;" value="Wireless Connection" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
