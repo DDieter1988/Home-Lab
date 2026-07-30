@@ -1,83 +1,87 @@
-# Daniel Dieter's Home Lab Portfolio
+# Home Lab
 
-Welcome to my home lab! I'm building this environment to sharpen my skills in networking, systems administration, virtualization, and IT infrastructure. This portfolio documents my journey—from physical hardware to software services—and serves as a hands-on foundation for launching my career in IT.
+Welcome to my homelab portfolio. This repository documents the design, evolution, and operation of my self-hosted infrastructure.
 
----
+Originally started as a way to learn networking fundamentals, the lab has grown into a production environment supporting media streaming, photo backup, automation, multiplayer game hosting, and enterprise-style network management.
 
-## Goals
-
-- Develop real-world experience with IT tools and infrastructure
-- Learn to design and troubleshoot small-scale networks
-- Practice virtualization, firewalls, and network services
-- Build a portfolio to showcase to potential employers
+The goal of this repository is to document not only **what** I've built, but also **why** architectural decisions were made and what I learned along the way.
 
 ---
 
-## Current Network Overview
+## Infrastructure Overview
 
-**Network Topology (May 2025):**
-```
-           [Internet]
-               |
-               |
-         [ISP Modem]
-               |
-               |
-      [ISP Router/Wi-Fi] (in smart panel)
-               |
-     +---------+-----------+
-     |                     |
- [Cat6 Wall Jack]      [Other unused ports]
-     |
-     |  (Existing pre-run Ethernet)
-     |
- [Bedroom Wall Jack]
-     |
-     |  
-+-------------+
-| Linksys |
-| LGS108P V2 | (Unmanaged PoE Switch)
-+------+------+---------------------+
-| |
-[My PC] [Xbox Console]
+Current environment includes:
 
-```
----
-
-## Hardware Inventory
-
-| Device        | Specs                          | Role                                 |
-|---------------|----------------------------------|--------------------------------------|
-| Main PC       | Ryzen 3 2200G / 16GB RAM / 1TB SSD | Daily driver, future VM host         |
-| Switch        | Linksys LGS108P V2 (8-port PoE) | LAN switch for devices + future APs  |
+- Dedicated compute and storage nodes
+- Enterprise Ruckus managed PoE switch
+- pfSense firewall
+- Structured home cabling
+- Docker-based service hosting
+- Network-attached storage
+- Publicly accessible and VPN-only services
 
 ---
 
-## Services Running
+## Documentation
 
-Currently no dedicated services or servers running—this portfolio will evolve as I add hardware and tools.
+| Document | Description |
+|----------|-------------|
+| docs/services.md | Inventory of self-hosted services |
+| docs/hardware.md | Hardware inventory |
+| docs/network-design.md | Network architecture |
+| docs/storage-design.md | Storage architecture |
+| docs/architecture-decisions.md | Design decisions and trade-offs |
+| updates/ | Homelab journal documenting major milestones |
+| diagrams/ | Versioned network topology diagrams |
 
 ---
 
-## Future Plans
+## Skills Demonstrated
 
-In progress: building a flexible, low-cost lab focused on realistic IT skills. Here's what I plan to implement as time and budget allow:
+- Linux administration
+- Docker & container management
+- Network design
+- Enterprise switching
+- pfSense firewall administration
+- Structured cabling
+- Storage management
+- Service deployment
+- Documentation
+- Troubleshooting
 
-- 🔧 **Replace ISP router** with a custom pfSense box (possibly using SFF hardware)
-- 🖧 **Add attic-mounted PoE Wi-Fi access points** for whole-home coverage
-- 📦 **Install Proxmox VE** on repurposed or refurbished hardware
-- 🐳 **Set up Docker containers** (Pi-hole, Portainer, HomeLab Dashboard)
-- 📋 **Document lab build process**: photos, diagrams, configs
-- 📡 **Experiment with VLANs and network segmentation**
-- 🔐 **Implement firewall rules and monitoring tools** (Syslog, ntopng, etc.)
-- 🌐 **Host portfolio on GitHub Pages or local web server**
-- 🧪 **Learn and apply basic scripting** (Bash, PowerShell, Python)
+---
+
+## Current Services
+
+- Jellyfin
+- Immich
+- Seerr
+- Sonarr
+- Radarr
+- Prowlarr
+- NZBGet
+- Multiplayer Game Servers
+
+See **docs/services.md** for additional details.
+
+---
+
+## Project Timeline
+
+Rather than replacing older documentation, this repository preserves the evolution of the lab through versioned diagrams and journal entries.
+
+Beginning with a simple unmanaged switch and progressing toward an enterprise-style environment, each milestone documents new technologies, lessons learned, and architectural improvements.
 
 ---
 
 ## About Me
 
-I'm Daniel, a self-taught tech enthusiast preparing for a career in IT with a focus on networking and systems. I'm actively learning through hands-on experience, online courses, and certifications (like CompTIA A+). I believe in building things that teach—and this lab is my foundation.
+I'm Daniel Dieter, an IT professional with a passion for networking, systems administration, and self-hosted infrastructure.
+
+This repository serves as both my personal documentation and a portfolio demonstrating practical experience gained through building and maintaining a real-world homelab.
+
+**LinkedIn:** <your LinkedIn link>
+
 
 Let’s connect: www.linkedin.com/in/daniel-dieter-IT
 
