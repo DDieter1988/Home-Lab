@@ -1,58 +1,45 @@
 # Home Lab
 
-Welcome to my homelab portfolio. This repository documents the design, evolution, and operation of my self-hosted infrastructure.
+Welcome to my homelab portfolio!
 
-Originally started as a way to learn networking fundamentals, the lab has grown into a production environment supporting media streaming, photo backup, automation, multiplayer game hosting, and enterprise-style network management.
+This repository documents the design, implementation, and ongoing evolution of my self-hosted infrastructure. What started as a simple networking project has grown into a production environment featuring enterprise networking hardware, dedicated compute and storage nodes, containerized services, and structured documentation.
 
-The goal of this repository is to document not only **what** I've built, but also **why** architectural decisions were made and what I learned along the way.
+The purpose of this repository is twofold:
+
+- Demonstrate practical skills in networking, Linux administration, Docker, and systems administration.
+- Document the decisions, challenges, and lessons learned while designing and maintaining a real-world homelab.
 
 ---
 
 ## Infrastructure Overview
 
-Current environment includes:
+The current environment includes:
 
 - Dedicated compute and storage nodes
-- Enterprise Ruckus managed PoE switch
-- pfSense firewall
-- Structured home cabling
-- Docker-based service hosting
+- Enterprise Ruckus managed PoE switching
+- pfSense firewall and router
+- Structured home Ethernet cabling
+- Docker-based self-hosted services
 - Network-attached storage
-- Publicly accessible and VPN-only services
+- Publicly accessible and VPN-protected services
+- Version-controlled documentation and network diagrams
 
 ---
 
-## Documentation
+## Technologies
 
-| Document | Description |
-|----------|-------------|
-| docs/services.md | Inventory of self-hosted services |
-| docs/hardware.md | Hardware inventory |
-| docs/network-design.md | Network architecture |
-| docs/storage-design.md | Storage architecture |
-| docs/architecture-decisions.md | Design decisions and trade-offs |
-| updates/ | Homelab journal documenting major milestones |
-| diagrams/ | Versioned network topology diagrams |
+### Operating Systems
+- Ubuntu Server
+- pfSense
 
----
+### Networking
+- Ruckus ICX7150-C12P-2X1G
+- WireGuard VPN
+- VLANs
+- PoE
+- Structured Cabling
 
-## Skills Demonstrated
-
-- Linux administration
-- Docker & container management
-- Network design
-- Enterprise switching
-- pfSense firewall administration
-- Structured cabling
-- Storage management
-- Service deployment
-- Documentation
-- Troubleshooting
-
----
-
-## Current Services
-
+### Self-Hosted Services
 - Jellyfin
 - Immich
 - Seerr
@@ -60,17 +47,54 @@ Current environment includes:
 - Radarr
 - Prowlarr
 - NZBGet
-- Multiplayer Game Servers
-
-See **docs/services.md** for additional details.
+- Docker
+- CasaOS
 
 ---
 
-## Project Timeline
+## Skills Demonstrated
 
-Rather than replacing older documentation, this repository preserves the evolution of the lab through versioned diagrams and journal entries.
+This homelab provides hands-on experience with:
 
-Beginning with a simple unmanaged switch and progressing toward an enterprise-style environment, each milestone documents new technologies, lessons learned, and architectural improvements.
+- Linux administration
+- Docker container management
+- Network design and troubleshooting
+- Enterprise switch configuration
+- Firewall administration
+- Storage management
+- Structured cabling
+- Service deployment
+- Infrastructure documentation
+- Technical troubleshooting
+
+---
+
+## Repository Structure
+
+| Folder | Description |
+|---------|-------------|
+| **diagrams/** | Versioned network topology diagrams documenting the evolution of the lab |
+| **docs/** | Service catalog, hardware inventory, architecture documentation, and design decisions |
+| **updates/** | Homelab journal documenting major milestones and lessons learned |
+
+---
+
+## Documentation
+
+- **Service Catalog** – Inventory of self-hosted services and how they're deployed
+- **Hardware Inventory** – Physical infrastructure and equipment
+- **Network Architecture** – Current network topology and design
+- **Storage Architecture** – Compute and storage layout
+- **Architecture Decisions** – Major design choices and trade-offs
+- **Homelab Journal** – Chronological record of upgrades, challenges, and lessons learned
+
+---
+
+## Project Philosophy
+
+This repository is more than a collection of servers and services. It is a living record of my learning process and an exercise in documenting infrastructure the same way it would be documented in a professional IT environment.
+
+Rather than replacing old documentation as the lab evolves, I preserve previous network diagrams and journal entries to show the progression of the environment over time. Each milestone reflects new technologies learned, challenges overcome, and improvements made to the overall architecture.
 
 ---
 
@@ -78,11 +102,14 @@ Beginning with a simple unmanaged switch and progressing toward an enterprise-st
 
 I'm Daniel Dieter, an IT professional with a passion for networking, systems administration, and self-hosted infrastructure.
 
-This repository serves as both my personal documentation and a portfolio demonstrating practical experience gained through building and maintaining a real-world homelab.
+This homelab serves as both my learning environment and my technical portfolio, showcasing practical experience gained through planning, building, documenting, and maintaining a real-world infrastructure.
 
-**LinkedIn:** <your LinkedIn link>
+**LinkedIn:** https://www.linkedin.com/in/daniel-dieter-it
 
+---
 
-Let’s connect: www.linkedin.com/in/daniel-dieter-IT
+*Thanks for taking the time to check out my homelab! Feedback, suggestions, and discussions are always welcome.*
 
+# Home Lab
 
+<img width="702" height="701" alt="Network Topology v7 Upgrading Connectivity drawio" src="https://github.com/user-attachments/assets/046280c0-d35e-4e78-a259-c56b0ff1a5c4" />
