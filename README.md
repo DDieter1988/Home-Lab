@@ -106,6 +106,8 @@ This homelab serves as both my learning environment and my technical portfolio, 
 
 **LinkedIn:** https://www.linkedin.com/in/daniel-dieter-it
 
+**YouTube (Deep Networking):** https://www.youtube.com/@DeepNetworking
+
 ---
 
 *Thanks for taking the time to check out my homelab! Feedback, suggestions, and discussions are always welcome.*
