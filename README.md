@@ -1,6 +1,6 @@
 # Home Lab
 
-Welcome to my homelab portfolio!
+Welcome to DieterLab public Git!
 
 This repository documents the design, implementation, and ongoing evolution of my self-hosted infrastructure. What started as a simple networking project has grown into a production environment featuring enterprise networking hardware, dedicated compute and storage nodes, containerized services, and structured documentation.
 
